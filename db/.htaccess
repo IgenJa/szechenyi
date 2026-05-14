@@ -1,0 +1,2 @@
+# A DB config könyvtár sose legyen webről elérhető.
+Require all denied

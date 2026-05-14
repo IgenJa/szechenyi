@@ -1,0 +1,7 @@
+# Block execution of script files in the uploads directory.
+# A feltöltött képek soha ne legyenek futtathatóak.
+<FilesMatch "\.(php|phtml|phar|pl|py|jsp|asp|sh|cgi|htaccess)$">
+  Require all denied
+</FilesMatch>
+Options -ExecCGI
+AddType text/plain .php .phtml .phar

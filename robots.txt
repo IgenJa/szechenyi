@@ -1,0 +1,5 @@
+User-agent: *
+Allow: /
+Disallow: /lightbox.html
+
+Sitemap: https://szechenyifoto.hu/sitemap.xml
